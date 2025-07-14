@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: k8s-cicd-app
-          image: <your-dockerhub-username>/k8s-cicd-app:latest
+          image: <hardik202>/k8s-cicd-app:latest
           ports:
             - containerPort: 3000
