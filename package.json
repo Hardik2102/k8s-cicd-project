@@ -1,11 +1,14 @@
 {
   "name": "k8s-cicd-app",
   "version": "1.0.0",
+  "description": "Simple Node.js app for CI/CD testing",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js"
-  "test": "echo \"Skipping tests\" && exit 0"
-},
+    "start": "node app.js",
+    "test": "echo \"Skipping tests\" && exit 0"
+  },
+  "author": "Hardik Parmar",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   }
